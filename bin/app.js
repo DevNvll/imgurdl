@@ -4,7 +4,7 @@ var program = require('commander');
 var path = require('path');
 
 program
-  .version('0.0.1')
+  .version('0.0.3')
   .option('--path <path>', 'Save album to a custom path')
   .parse(process.argv);
 
@@ -16,8 +16,8 @@ if(args[0] === undefined) {
 }
 else {
   if (program.path) {
-    imgurdl.album(args[0], path.normalize(program.path));
+    imgurdl(args[0], path.normalize(program.path));
   } else {
-    imgurdl.album(args[0]);
+    imgurdl(args[0]);
   }
 }

@@ -46,4 +46,4 @@ function album(albumid, path) {
   }
 }
 
-exports.album = album;
+module.exports = album;
