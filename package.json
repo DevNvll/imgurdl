@@ -1,0 +1,32 @@
+{
+  "name": "imgurdl",
+  "version": "0.0.1",
+  "description": "Node module to download Imgur albuns",
+  "main": "imgurdl.js",
+  "scripts": {
+    "start": "node imgurdl",
+    "test": "mocha test"
+  },
+  "bin": {
+    "imgurdl": "bin/app.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Razr9/imgurdl.git"
+  },
+  "keywords": [
+    "imgur",
+    "download",
+    "albuns",
+    "image"
+  ],
+  "author": "Henrick Martins (Razr9)",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "request": "^2.64.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+}
