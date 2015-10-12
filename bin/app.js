@@ -16,10 +16,10 @@ if(args[0] === undefined) {
 }
 else {
   if (program.path) {
-    console.log('Downloading', args[0]);
+    console.log('Downloading:', args[0]);
     imgurdl.download(args[0], path.normalize(program.path));
   } else {
-    console.log('Downloading', args[0]);
+    console.log('Downloading:', args[0]);
     imgurdl.download(args[0]);
   }
 }
