@@ -9,8 +9,10 @@ var clientID;
 imgurdl.setClientId = function(id) {
   if(id && typeof id === 'string') {
     clientID = id;
+    imgurdl.clientid = clientID;
   }
 };
+
 
 imgurdl.download = function(albumid, path) {
 
