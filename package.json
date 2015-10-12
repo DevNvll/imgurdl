@@ -1,6 +1,6 @@
 {
   "name": "imgurdl",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Node module to download Imgur albuns",
   "main": "imgurdl.js",
   "scripts": {
@@ -11,8 +11,8 @@
     "imgurdl": "bin/app.js"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Razr9/imgurdl.git"
+    "type": "git",
+    "url": "https://github.com/Razr9/imgurdl.git"
   },
   "keywords": [
     "imgur",

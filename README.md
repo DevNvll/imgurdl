@@ -12,7 +12,9 @@ Node module to download Imgur albuns
 ####Local
 ``var imgurdl = require('imgurdl');``
 
-``imgurdl(albumID, path) //path is optional``
+``imgurdl.setClientId('id')``
+
+``imgurdl.download(albumID, path) //path is optional``
 
 ####CLI
 ``$ imgurdl albumId``
